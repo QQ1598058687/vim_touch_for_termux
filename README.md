@@ -6,6 +6,9 @@ install termux apk :https://f-droid.org/packages/com.termux/
 
 更改为termux专用
 
+
+需要移除原先的vim(Need to remove the previously installed vim)
+
 一步到位
 
     git clone https://github.com/QQ1598058687/vim_touch_for_termux.git ~/.vimplus
