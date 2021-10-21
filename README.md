@@ -23,8 +23,9 @@ install termux apk :https://f-droid.org/packages/com.termux/
 
 
 ![image](https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/Mobile%20ide.gif)
+default c/cpp env
 
-Python3 
+Change Python3 env
 
     cd ~/.vim/plugged/YouCompleteMe/
     
