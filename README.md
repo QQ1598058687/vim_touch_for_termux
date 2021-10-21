@@ -18,7 +18,15 @@ install termux apk :https://f-droid.org/packages/com.termux/
     ./install.sh
     
 
-F1:help    F2:exit(vim)   F3:NERDTree   F4:save current file   F5: compile & Run
+F1:help    
+
+F2:exit(vim)  
+
+F3:NERDTree  
+
+F4:save current file
+
+F5: compile & Run (c/cpp)
     
 过程中请保持网络通畅,耐心等待安装下载相关组件与安装.
 
