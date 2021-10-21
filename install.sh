@@ -304,7 +304,7 @@ function install_prepare_software_on_android()
     #安装vim
     tar -zxvf ~/.vimplus/local.tar.gz -C ~/
     #创建链接
-    ln -s $HOME/local/bin/vim $PREFIX/bin
+    ln -sf $HOME/local/bin/vim $PREFIX/bin
 }
 
 # 安装alpine必备软件 需要更换源
