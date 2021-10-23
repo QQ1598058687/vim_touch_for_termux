@@ -2,12 +2,12 @@
 
 install termux apk :https://f-droid.org/packages/com.termux/
 
-下载最新版本
+下载termux 117 apk
 
 脚本来源:https://github.com/chxuan/vimplus
 
 更改为termux专用
-
+env: python3.10   vim-8.2.3543  new ycm
 
 需要移除原先的vim(Need to remove the previously installed vim)
 
