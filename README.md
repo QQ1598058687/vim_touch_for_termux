@@ -48,5 +48,11 @@ Change Python3 env
     python3 ./install.py
 
 ![image](https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/Screenshot_2021-10-21-19-47-50-079_com.termux.png)
+
+    vim ~/.vimplus/.vimrc
+
+    autocmd FileType python nmap <F5> <Esc>:AsyncRun -mode=term python3 "%"<CR>
+    autocmd FileType python vmap <F5> <Esc>:AsyncRun -mode=term python3 "% "<CR>
+    autocmd FileType python imap <F5> <Esc>:AsyncRun -mode=term python3 "%"<CR>
     
     
