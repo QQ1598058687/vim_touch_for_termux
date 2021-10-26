@@ -37,6 +37,7 @@ F5: compile & Run (c/cpp)
 
 可以安装webssh做成内网移动ide
 
+![image](https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/Mobile%20ide.gif)
 
 set theme
 
@@ -49,7 +50,6 @@ During the installation process, the pop-up option yes
 ![image](https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/Screenshot_2021-10-27-06-12-46-934_com.termux.png)
 
 
-![image](https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/Mobile%20ide.gif)
 default c/cpp env
 
 Change Python3 env
