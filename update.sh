@@ -24,9 +24,9 @@ function update_fonts_and_keyboard_on_android()
     rm -rf ~/.termux/font.ttf
     rm -rf ~/.termux/termux.properties
     mkdir ~/.termux
-    cp ./fonts/sarasa-fixed-sc-regular.ttf ~/.termux/font.ttf
+    cp ./fonts/FiraCode.ttf ~/.termux/font.ttf
     cp ./termux.properties ~/.termux/termux.properties
-    
+    cp ./colors.properties ~/.termux/colors.properties
     # 刷新style
     REL="am broadcast --user 0 -a com.termux.app.reload_style com.termux"
     $REL > /dev/null
@@ -91,8 +91,8 @@ function print_logo()
     echo ' \ V / / / / / / / /_/ / / /_/ (__  )  '
     echo '  \_/_/_/ /_/ /_/ ,___/_/\____/____/   '
     echo '               /_/                     ...is now updated!'
-    echo ''
-    echo ''
+    echo 'by 桔皮沙拉'
+    echo 'qq1598058687'
     echo 'Just enjoy it!'
     echo 'p.s. Follow me at https://github.com/chxuan.'
     echo ''
