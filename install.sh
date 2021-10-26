@@ -468,7 +468,9 @@ function install_fonts_and_keyboard_on_android()
     rm -rf ~/.termux/termux.properties
     mkdir ~/.termux
     #改为等距更纱并配置键盘
-    cp ./fonts/sarasa-fixed-sc-regular.ttf ~/.termux/font.ttf
+    cp ./fonts/FiraCode.ttf ~/.termux/font.ttf
+    #add Background colors
+    cp ./colors.properties ~/colors.properties
     cp ./termux.properties ~/.termux/termux.properties
     
     # 刷新style

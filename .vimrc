@@ -65,23 +65,27 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h 
 map <C-l> <C-W>l
+"分屏窗口调整
+"if bufwinnr(1)
+"    map + <C-W>+
+"    map - <C-W>-
+"endif
 
 nmap <F4> :w!<CR>
 vmap <F4> <C-C>:w!<CR>
 imap <F4> <Esc>:w!<CR>i
+
 map <F3> <Esc>:NERDTree<CR>
+
 nmap <F2> <Esc>:q!<CR>
 vmap <F2> <Esc>:q!<CR>
 imap <F2> <Esc>:q!<CR>
-"vmap <F2> <Esc>:q!<CR>
-"imap <F2> <Esc>:q!<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 通用设置
 
 set mouse=a
-set splitbelow
 "set termwinsize=6x0
-let g:asyncrun_open=6
+"let g:asyncrun_open=6
 set splitbelow
 let mapleader = ","      " 定义<leader>键
 set nocompatible         " 设置不兼容原始vi模式
