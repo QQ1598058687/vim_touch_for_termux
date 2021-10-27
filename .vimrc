@@ -30,7 +30,7 @@ autocmd FileType cpp nmap <F5> <Esc>:AsyncRun -mode=term g++ -O3 -std=c++17 "%" 
 autocmd FileType cpp vmap <F5> <Esc>:AsyncRun -mode=term g++ -O3 -std=c++17 "%" -o "%<" && "./%<"<CR>
 autocmd FileType cpp imap <F5> <Esc>:AsyncRun -mode=term g++ -O3 -std=c++17 "%" -o "%<" &&"./%<"<CR>
 autocmd FileType cc map <F5> <Esc>:AsyncRun -mode=term g++ -O3 -std=c++17 "%" -o "%<"&&"./%<"<CR>
-autocmd FileType c map <F5> <Esc>:AsyncRun -mode=term g++ -O3 -std=c++17 "%" -o "%<"&&"./%<"<CR>
+autocmd FileType c map <F5> <Esc>:AsyncRun -mode=term gcc -O3 -std=c11 "%" -o "%<"&&"./%<"<CR>
 
 "autocmd FileType cpp nmap <F5> <Esc>:call CompileRunGpp()<CR>
 "autocmd FileType cpp vmap <F5> <Esc>:call CompileRunGpp()<CR>
