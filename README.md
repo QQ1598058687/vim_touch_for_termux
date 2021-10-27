@@ -24,8 +24,9 @@ F5: compile & Run (c/cpp)
 过程中请保持网络通畅,耐心等待安装下载相关组件与安装.
 
 <img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/demo.gif"/>  
-可以安装webssh做成内网移动ide
 
+
+可以安装webssh做成内网移动ide
 install webssh
 
     apt update -y
@@ -47,6 +48,8 @@ ok
 <img width="600" height="400" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh2.png"/>  
 <img width="600" height="400" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/Mobile%20ide.gif"/>  
 
+
+
 set theme
 
     cd ~/.vimplus && chmod +x set_theme.sh &&./set_theme.sh  
@@ -59,9 +62,10 @@ Then input
 ENTER then continue install  
 <img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/theme%20demo.png"/>  
 
+
+
 default c/cpp environment  
 If python or clang is updated  
-
 Recompile ycm
 
     cd ~/.vim/plugged/YouCompleteMe
