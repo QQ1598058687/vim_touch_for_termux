@@ -55,6 +55,14 @@ ENTER then continue install
 
 default c/cpp env
 
+If python or clang is updated
+
+Recompile ycm
+
+        cd ~/.vim/plugged/YouCompleteMe
+        
+        python3 ./install.py --clang-completer --system-libclang
+
 Change Python3 env
 
     cd ~/.vim/plugged/YouCompleteMe/ && python3 ./install.py
