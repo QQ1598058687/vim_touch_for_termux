@@ -15,8 +15,11 @@ According to the recovery method of the wiki, directly download the package to r
 https://wiki.termux.com/wiki/Backing_up_Termux  
 
 [download Backing up](https://drive.google.com/file/d/17Mldomok1bz3Hs7B2h0kZTUbHETvwBB7/view?usp=drivesdk "termux.tar.gz")  
-    
-    
+  
+  Backup package content  
+  
+<img width="400" height="1300" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/instructions.png"/> 
+
 ___
     
 # Method 2: 
