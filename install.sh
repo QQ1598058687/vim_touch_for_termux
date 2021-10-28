@@ -470,7 +470,7 @@ function install_fonts_and_keyboard_on_android()
     #改为等距更纱并配置键盘
     cp ./fonts/FiraCode.ttf ~/.termux/font.ttf
     #add Background colors
-    cp ./colors.properties ~/colors.properties
+    cp ./colors.properties ~/.termux/colors.properties
     cp ./termux.properties ~/.termux/termux.properties
     
     # 刷新style
