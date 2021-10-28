@@ -18,7 +18,7 @@ https://wiki.termux.com/wiki/Backing_up_Termux
   
   Backup package content  
   
-<img width="400" height="1300" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/instructions.png"/> 
+<img width="400" height="1300" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/instructions1.png"/> 
 
 ___
     
