@@ -8,14 +8,14 @@ install termux apk :https://f-droid.org/packages/com.termux/
 
 ```diff
 +Method 1:  
-+内置环境:  
-+   python3.10   vim-8.2.3543  new ycm clang-12.0.1
-```  
+@@内置环境:  @@  
+@@   python3.10   vim-8.2.3543  new ycm clang-12.0.1  @@  
+
 According to the recovery method of the wiki, directly download the package to recover  
+```
 https://wiki.termux.com/wiki/Backing_up_Termux  
 
 [download Backing up](https://drive.google.com/file/d/1po4jbEsI1SOXxmglu-_UW248J16l3jcy/view?usp=sharing "termux.tar.gz")
-
 
 ```diff
 -Method 2:  
