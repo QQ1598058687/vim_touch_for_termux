@@ -4,8 +4,28 @@ install termux apk :https://f-droid.org/packages/com.termux/
 脚本来源:https://github.com/chxuan/vimplus
 
 更改为termux专用  
-内置环境:  
-   python3.10   vim-8.2.3543  new ycm
+
+
+```diff
++Method 1:  
++内置环境:  
++   python3.10   vim-8.2.3543  new ycm clang-12.0.1
+```  
+According to the recovery method of the wiki, directly download the package to recover  
+https://wiki.termux.com/wiki/Backing_up_Termux  
+download  
+https://drive.google.com/file/d/1po4jbEsI1SOXxmglu-_UW248J16l3jcy/view?usp=sharing
+
+```diff
+-Method 2:  
+!During the installation...  
+! If the updated package from the official termux source is incomplete,Linking or dependency problems will all be generated during the ycm phase of compiling,Still hope to know
+```  
+<img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/bug.jpg"/> 
+
+```diff
++continue 
+```  
 
 !需要移除原先的vim(Need to remove the previously installed vim)
 
