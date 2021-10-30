@@ -31,7 +31,8 @@ https://wiki.termux.com/wiki/Backing_up_Termux
 <img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect00.png"/> 
 
 ```diff 
-+  Edit the html file of webssh again. It will be connected and filled automatically, just click to log in.  
++  Edit the html file of webssh again. It will be connected and filled automatically, just click to log in.    
++ There are four places to modify in the picture, the fill value after html is opened
 ```  
 
 <img width="400" height="30" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect01.png"/> 
