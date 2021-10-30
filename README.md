@@ -14,12 +14,30 @@ According to the recovery method of the wiki, directly download the package to r
 ```
 https://wiki.termux.com/wiki/Backing_up_Termux  
 
-[download Backing up](https://drive.google.com/file/d/17g2lZOMrhMyQRGdT2t_HxOB6C-M32rcg/view?usp=sharing "termux.tar.gz")  
-  
+[download 1 c/cpp environment Backing up](https://drive.google.com/file/d/17g2lZOMrhMyQRGdT2t_HxOB6C-M32rcg/view?usp=sharing "termux.tar.gz")  
+ [download 2 Backing up With webssh]( https://drive.google.com/file/d/18BFhkO4k3PKD0L0LYrgfhvWgICc6iNl1/view?usp=sharing "termux.tar.gz")  
   Backup package content  
   
 <img width="400" height="1300" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/instructions1.png"/> 
 
+```diff
++ Contains openssh, if you use ssh for the first time, follow the figure below. Otherwise skip  
+```  
+
+<img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect00.png"/> 
+
+```diff 
++  Edit the html file of webssh again. It will be connected and filled automatically, just click to log in.  
+```  
+
+<img width="400" height="30" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect01.png"/> 
+<img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect02.png"/> 
+
+pc Browser  
+<img width="600" height="400" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect03.png"/> 
+
+Mobile Browser  
+<img width="400" height="350" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect05.png"/> 
 ___
     
 # Method 2: 
