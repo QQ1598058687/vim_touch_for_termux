@@ -15,7 +15,11 @@ According to the recovery method of the wiki, directly download the package to r
 https://wiki.termux.com/wiki/Backing_up_Termux  
 
 [download 1 c/cpp environment Backing up](https://drive.google.com/file/d/17g2lZOMrhMyQRGdT2t_HxOB6C-M32rcg/view?usp=sharing "termux.tar.gz")  
- [download 2 Backing up With webssh]( https://drive.google.com/file/d/18BFhkO4k3PKD0L0LYrgfhvWgICc6iNl1/view?usp=sharing "termux.tar.gz")  
+
+
+ [download 2 Backing up With webssh (Added numpy)]( https://drive.google.com/file/d/18BFhkO4k3PKD0L0LYrgfhvWgICc6iNl1/view?usp=sharing "termux.tar.gz")  
+ 
+ 
   Backup package content  
   
 <img width="400" height="1300" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/instructions1.png"/> 
