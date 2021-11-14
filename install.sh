@@ -467,7 +467,7 @@ function install_fonts_and_keyboard_on_android()
     rm -rf ~/.termux/font.ttf
     rm -rf ~/.termux/termux.properties
     mkdir ~/.termux
-    #改为等距更纱并配置键盘
+    #改为FiraCode并配置键盘
     cp ./fonts/FiraCode.ttf ~/.termux/font.ttf
     #add Background colors
     cp ./colors.properties ~/.termux/colors.properties
