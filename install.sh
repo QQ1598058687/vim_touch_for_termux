@@ -309,6 +309,7 @@ function install_prepare_software_on_android()
     make install 
     #创建链接
     ln -sf $HOME/local/bin/vim $PREFIX/bin
+    cd ~/.vimplus
 }
 
 # 安装alpine必备软件 需要更换源
