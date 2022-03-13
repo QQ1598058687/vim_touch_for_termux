@@ -302,7 +302,11 @@ function install_prepare_software_on_android()
     apt update -y && apt upgrade -y
     pkg install -y clang gdb python3 ctags cmake ack-grep ncurses-utils
     #安装vim
-    tar -zxvf ~/.vimplus/local.tar.gz -C ~/
+    tar -zxvf ~/.vimplus/vim-8.2.3543.tar.gz -C ~/
+    cd ~/vim-8.2.3543
+    ./configure --with-features=huge --enable-python3interp --enable-rubyinterp --enable-luainterp --enable-perlinterp --with-python3-config-dir=$PREFIXlib/python3 --enable-multibyte --enable-cscope -prefix=$HOME/local
+    make -j8
+    make install 
     #创建链接
     ln -sf $HOME/local/bin/vim $PREFIX/bin
 }
