@@ -44,16 +44,16 @@ autocmd FileType c map <F5> <Esc>:AsyncRun -mode=term gcc -O3 -std=c11 "%" -o "%
 "endfunc
 "
 "C,C++的调试
-autocmd FileType cpp nmap <F6> <Esc>:call Rungdb()<CR>
-autocmd FileType cpp vmap <F6> <Esc>:call Rungdb()<CR>
-autocmd FileType cpp imap <F6> <Esc>:call Rungdb()<CR>
-autocmd FileType cc map <F6> <Esc>:call Rungdb()<CR>
-autocmd FileType c map <F6> <Esc>:call Rungdb()<CR>
-
-func! Rungdb()
-exec "w"
-exec "!g++ % -std=c++17 -g -o %<"
-exec "!gdb ./%<"
+map <F6> :call Runtermdebug()<CR>
+func! Runtermdebug()
+    exec "w"
+    if &filetype == 'c'
+        exec "!gcc % -g -o %<"
+    elseif &filetype == 'cpp'
+        exec "!g++ % -g -std=c++17 -o %<"
+    endif
+    exec "packadd termdebug"
+    exec "Termdebug %<"
 endfunc
 
 "inoremap <expr> <C-e> ScrollPopup(3) ? '' : '<C-e>'
