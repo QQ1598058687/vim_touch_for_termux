@@ -55,7 +55,7 @@ F6: debug C/CPP
     
     vim ~/.vim/plugged/NeoDebug/plugin/NeoDebug.vim
     
-    esc:%s<F1>/ = 50/ = 15/g
+    esc:%s/ = 50/ = 15/g
 ___  
 
 
