@@ -45,7 +45,8 @@ F3:NERDTree
 F4:save current file  
 F5: compile & Run (c/cpp)  
 F6: debug C/CPP
-过程中请保持网络通畅,耐心等待安装下载相关组件与安装.
+
+   过程中请保持网络通畅,耐心等待安装下载相关组件与安装.
 
 <img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/demo.gif"/>  
 
