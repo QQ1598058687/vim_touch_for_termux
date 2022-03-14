@@ -14,7 +14,7 @@ According to the recovery method of the wiki, directly download the package to r
 ```
 https://wiki.termux.com/wiki/Backing_up_Termux  
 
-[download 1: c/cpp environment Backing up](https://drive.google.com/file/d/1iO8ZMHHEmZl2tQqm_ie77pODxUu6RNCf/view?usp=sharing "termux.tar.gz")  
+[download 1: c/cpp environment Backing up](https://drive.google.com/file/d/1a_Q0OUgEfmbq5DXrPyax7IUbJvNSvMWN/view?usp=sharing "termux.tar.gz")  
  
 
 
