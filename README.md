@@ -8,41 +8,16 @@ ___
 # Method 1:
 ```diff  
 @@内置环境:  @@  
-@@   python3.10   vim-8.2.3543  new ycm clang-12.0.1  @@  
+@@   python3.10.2   vim-8.2.3543  new ycm clang-13.0.1  @@  
 
 According to the recovery method of the wiki, directly download the package to recover  
 ```
 https://wiki.termux.com/wiki/Backing_up_Termux  
 
 [download 1: c/cpp environment Backing up](https://drive.google.com/file/d/1iO8ZMHHEmZl2tQqm_ie77pODxUu6RNCf/view?usp=sharing "termux.tar.gz")  
-
-
- [download 2: Backing up With webssh (Added numpy)]( https://drive.google.com/file/d/18BFhkO4k3PKD0L0LYrgfhvWgICc6iNl1/view?usp=sharing "termux.tar.gz")  
  
- 
-  Backup package content  
-  
-<img width="400" height="1300" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/instructions1.png"/> 
 
-```diff
-+ Contains openssh, if you use ssh for the first time, follow the figure below. Otherwise skip  
-```  
 
-<img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect00.png"/> 
-
-```diff 
-+  Edit the html file of webssh again. It will be connected and filled automatically, just click to log in.    
-+ There are four places to modify in the picture, the fill value after html is opened
-```  
-
-<img width="400" height="30" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect01.png"/> 
-<img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect02.png"/> 
-
-pc Browser  
-<img width="600" height="400" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect03.png"/> 
-
-Mobile Browser  
-<img width="400" height="350" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh_connect05.png"/> 
 ___
     
 # Method 2: 
@@ -69,49 +44,13 @@ F2:exit(vim)
 F3:NERDTree  
 F4:save current file  
 F5: compile & Run (c/cpp)  
-
+F6: debug C/CPP
 过程中请保持网络通畅,耐心等待安装下载相关组件与安装.
 
 <img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/demo.gif"/>  
 
 ___  
-可以安装webssh做成内网移动ide
-install webssh
 
-    apt update -y
-    apt install -y openssh rust
-Then in termux input
-
-    ssh-kengen  
-Keep pressing enter until the end  
-then input
-
-    passwd  
-input ssh key  
-The input is invisible  
-After entering twice in a row
-
-    cat ~/.ssh/id_rsa.pub>>~/.ssh/authorized_keys  
-ok  
-<img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh1.jpg"/>  
-<img width="600" height="400" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/webssh2.png"/>  
-<img width="600" height="400" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/Mobile%20ide.gif"/>  
-
-___
-
-set theme
-
-    cd ~/.vimplus && chmod +x set_theme.sh &&./set_theme.sh  
-During the installation process, the pop-up option
-
-    yes  
-Then input
-
-    exit  
-ENTER then continue install  
-<img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/theme%20demo.png"/>  
-
-___
 
 default c/cpp environment  
 If python or clang is updated  
@@ -119,9 +58,9 @@ Recompile ycm
 
     cd ~/.vim/plugged/YouCompleteMe
     python3 ./install.py --clang-completer --system-libclang  
-  
-Change Python3 environment
 
+Change Python3 environment
+ 
     cd ~/.vim/plugged/YouCompleteMe/ && python3 ./install.py  
 <img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/python%20completion.png"/>
 
