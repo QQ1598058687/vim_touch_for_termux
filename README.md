@@ -50,6 +50,12 @@ F6: debug C/CPP
 
 <img width="400" height="600" src="https://github.com/QQ1598058687/vim_touch_for_termux/blob/main/screenshots/demo.gif"/>  
 
+
+调试状态替换监视边框宽度(debug cpp ,watching Windows size)
+    
+    vim ~/.vim/plugged/NeoDebug/plugin/NeoDebug.vim
+    
+    esc:%s<F1>/ = 50/ = 15/g
 ___  
 
 
