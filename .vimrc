@@ -52,8 +52,9 @@ func! Runtermdebug()
     elseif &filetype == 'cpp'
         exec "!g++ % -g -std=c++17 -o %<"
     endif
-    exec "packadd termdebug"
-    exec "Termdebug %<"
+    "exec "packadd termdebug"
+    "exec "Termdebug %<"
+    exec "NeoDebug %<"
 endfunc
 
 "inoremap <expr> <C-e> ScrollPopup(3) ? '' : '<C-e>'
@@ -226,6 +227,8 @@ Plug 'terryma/vim-smooth-scroll'
 Plug 'rhysd/clever-f.vim'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'skywind3000/asyncrun.vim'
+Plug 'cpiger/NeoDebug'
+
 " 加载自定义插件
 if filereadable(expand($HOME . '/.vimrc.custom.plugins'))
 source $HOME/.vimrc.custom.plugins
